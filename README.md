@@ -28,7 +28,7 @@ Browse trending lists and all-time top-rated content, and view detailed descript
 ## 🛠 Requirements
 
 - Python 3.8+  
-- Telegram Bot Token (create via [@BotFather](https://t.me/botfather) 
+- Telegram Bot Token — create via [@BotFather](https://t.me/botfather)
 - Google Chrome installed  
 - ChromeDriver matching your Chrome version  
 
