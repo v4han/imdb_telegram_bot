@@ -1,4 +1,3 @@
-````markdown
 # 🎬 IMDb Telegram Bot
 
 > **Note:** This project was created as a **Python & Selenium assignment**, which is why Selenium is used for web scraping IMDb.
@@ -36,20 +35,20 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
------
+---
 
 ## 📦 Installation
 
-1.  **Clone the repository**
+1. **Clone the repository**
 
     ```bash
     git clone [https://github.com/v4han/imdb_telegram_bot.git](https://github.com/v4han/imdb_telegram_bot.git)
     cd imdb_telegram_bot
     ```
 
-2.  **Create and activate a virtual environment**
+2. **Create and activate a virtual environment**
 
     ```bash
     python -m venv venv
@@ -59,20 +58,20 @@ pip install -r requirements.txt
     venv\Scripts\activate
     ```
 
-3.  **Install dependencies**
+3. **Install dependencies**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Add your bot token**
+4. **Add your bot token**
     Create a `.env` file in the project root:
 
     ```bash
     TOKEN=your_telegram_bot_token_here
     ```
 
------
+---
 
 ## 🚀 Usage
 
@@ -82,15 +81,15 @@ Run the bot:
 python bot.py
 ```
 
-  * Start the bot in Telegram with `/start`
-  * Navigate the menu to explore movies or TV shows
-  * Click on a title to view detailed information
+* Start the bot in Telegram with `/start`
+* Navigate the menu to explore movies or TV shows
+* Click on a title to view detailed information
 
------
+---
 
 ## 📂 Project Structure
 
-```
+```text
 imdb_telegram_bot/
 ├── bot.py           # Telegram bot logic (menus, commands, callbacks)
 ├── parser.py        # Selenium scraping functions for IMDb
@@ -98,12 +97,9 @@ imdb_telegram_bot/
 └── requirements.txt # Python dependencies
 ```
 
------
+---
 
 ## ⚠️ Notes
 
-  * IMDb site layout may change; CSS selectors in `parser.py` may need updates.
-  * Avoid spamming commands to prevent IMDb from blocking requests.
-
-```
-```
+* IMDb site layout may change; CSS selectors in `parser.py` may need updates.
+* Avoid spamming commands to prevent IMDb from blocking requests.
